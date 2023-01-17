@@ -1,4 +1,4 @@
-package com.volotalksaboutthings.myspringapp.dataObject;
+package com.volotalksaboutthing.demo.dataObject;
 
 import java.util.ArrayList;
 import java.util.List;
