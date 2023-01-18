@@ -19,7 +19,7 @@ public class UserController {
     @GetMapping(value = "/items")
     public ResponseEntity<List<User>> getAllItems() {
         try {
-        
+            // TODO Exception hdndling management
             return new ResponseEntity<>(repo.getItems(), HttpStatus.OK);    
 
         } catch (Exception e) {
